@@ -4,6 +4,6 @@ coverage
 .vscode
 .env
 .DS_Store
-jsconfig.json
+/jsconfig.json
 letterCount.js
 letterCount.test.js
