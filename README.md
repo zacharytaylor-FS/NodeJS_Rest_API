@@ -1,16 +1,37 @@
-# Node.js Express.js MongoDB Docker 
+# Node.js & Server Side Languages
+## What is Node.js?
+- Open Source Server Environment
+- Uses __Asynchronous Programming__
+- Runs single-threaded
+- Uses ```JavaScript``` on server
+
+## What can `Node.js` Do?
+- `Node.js` can generate dynamic page content
+- `Node.js` Can `Create, Open, Read, Write, Delete, and close files on a servere.
+- `Node.js` Can collect form data
+- `Node.js` Can Add, Delete, modify data in a database
+
+## What is a `Node.js` File?
+- `Node.js` files contain tasks to be executed on certain events
+- File must be initiated on server 
+
 ### Back-end API(Application Programmable Interface)
 
-
-
+---
 ### Topics
-  * **Node.js**
-  * **Express.js**
-    * CORS
-    * Design Pattern
-      * *Server*
-      * *Listener*
-      * *Router* 
+
+
+* **HTTP Module**
+* **Modules**
+* **FS**
+* **URL Module**
+* **Send an Email**
+* **Express.js**
+  * CORS
+  * Design Pattern
+    * *Server*
+    * *Listener*
+    * *Router* 
   * **Unit Testing**
     * *Jest*
   * **Nodemon**

@@ -5,5 +5,3 @@ coverage
 .env
 .DS_Store
 /jsconfig.json
-letterCount.js
-letterCount.test.js
