@@ -1,5 +1,6 @@
 const express = require('express');
 const router = require('../router/router');
+const bodyParser = require('body-parser')
 const app = express();
 
 // Use middleware 
@@ -37,4 +38,19 @@ app.get("/", (req,res,next)=>{
 app.use('/user', router)
 
 
+//use middleware to handle errors or bad paths
+app.use((req,res,next)=>{
+  const error = new Error("URL Not Found");
+  error.status = 404;
+  next(error);
+});
+
+app.use((error,req,res,next)=>{
+  res.status(error.status || 500).json({
+    error: {
+      message: error.message,
+      status: error.status  
+    },
+  });
+});
 module.exports = app
