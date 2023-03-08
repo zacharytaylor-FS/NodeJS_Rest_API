@@ -12,7 +12,7 @@ const mathOperations = {
 		return a / b;
 	},
 	sqrt: function (a, b){
-		return (Math.sqrt((a * a) + (b * b)))
+		return (Math.sqrt((a * a) + (b * b)));
 	},
 	max: function (a, b) {
 		return (Math.max(a, b))

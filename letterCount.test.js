@@ -1,4 +1,4 @@
-const LetterCount = require('./letterCount')
+const LetterCount = require('./letterCount');
 
 describe('Letter Count Tests', () => {
   
