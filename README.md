@@ -1,11 +1,11 @@
 # Node.js & Server Side Languages
 ## What is Node.js?
-- Open Source Server Environment
-- Uses __Asynchronous Programming__
+- NodeJS is a open source __Server Environment__
+- Uses __`Asynchronous Programming`__
 - Runs single-threaded
-- Uses ```JavaScript``` on server
+- Uses __``` JavaScript ```__ on server
 
-## What can `Node.js` Do?
+## What can Node.js Do?
 - `Node.js` can generate dynamic page content
 - `Node.js` Can `Create, Open, Read, Write, Delete, and close files on a servere.
 - `Node.js` Can collect form data
